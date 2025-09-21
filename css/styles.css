@@ -503,6 +503,10 @@ img {
   stroke: #4d5ae5;
 }
 
+.modal-input::placeholder{
+  color: #4d5ae5;
+}
+
 .modal-button {
   border-radius: 4px;
   padding: 16px 32px;
@@ -512,7 +516,7 @@ img {
 }
 
 .modal-input-label {
-  display: inline-block;
+  display: block;
 }
 
 .input-icon {
