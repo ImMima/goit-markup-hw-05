@@ -469,19 +469,18 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-  border-radius: 4px;
   width: 24px;
   height: 24px;
   border-radius: 100%;
   fill: #e7e9fc;
   stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
 }
 
 .modal-title{
   text-align: center;
   max-width: 360px;
   margin-bottom: 16px;
+  padding-top: 72px;
 }
 
 .modal-input{
