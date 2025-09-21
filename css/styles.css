@@ -526,7 +526,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   fill: transparent;
-  stroke: #2e2f42;
+  stroke: #2E2F42;
   transition: 0.3s stroke linear;
 }
 
