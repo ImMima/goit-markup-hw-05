@@ -466,10 +466,7 @@ img {
 }
 
 .modal-close {
-
-
-.input-icon-close {
-  top: 24px;
+ top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
@@ -477,6 +474,9 @@ img {
   fill: transparent;
   stroke-width: 1px;
 }
+
+.input-icon-close {
+ 
 }
 
 .modal-field {
