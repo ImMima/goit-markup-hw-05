@@ -468,15 +468,14 @@ img {
 .modal-close {
 
 
-.input-modal-close {
+.input-icon-close {
   position: absolute;
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
-  border-radius: 100%;
   border-color: transparent;
-  fill: #e7e9fc;
+  fill: transparent;
   stroke-width: 1px;
 }
 }
