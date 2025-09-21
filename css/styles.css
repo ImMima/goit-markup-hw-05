@@ -469,12 +469,11 @@ img {
 
 
 .input-icon-close {
-  position: absolute;
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
-  border-color: transparent;
+  border-color: #E7E9FC;
   fill: transparent;
   stroke-width: 1px;
 }
