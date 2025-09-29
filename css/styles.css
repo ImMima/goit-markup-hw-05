@@ -623,13 +623,21 @@ img {
 }
 
 .accept-terms {
-  display: flex;
-  align-items: center;
+  display: block;
+  position: relative;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.accept-terms input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
 .policy {
@@ -658,6 +666,9 @@ a {
 }
 
 .accept-terms-check {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 16px;
   height: 16px;
   border-radius: 2px;
