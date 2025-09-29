@@ -484,30 +484,31 @@
             </div>
           </div>
 
-          <div class="modal-field">
-            <label for="user-text" class="modal-input-label">Comment</label>
+          <div class="modal-field modal-field-spacer">
+            <label for="user-comment" class="modal-input-label">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-textarea modal-general"
-              placeholder=""
+              placeholder="Text input"
             ></textarea>
           </div>
           <div class="terms">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="modal-check"
+              value="true"
+            />
             <label class="accept-terms" for="check">
-              <input
-                type="checkbox"
-                name="check"
-                id="check"
-                class="modal-check"
-              />
+              I accept the terms and conditions of the
+              <a href="" class="policy">Privacy Policy</a>
               <span class="accept-terms-check">
                 <svg class="input-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="policy">Privacy Policy</a>
             </label>
           </div>
           <button type="submit" class="modal-button">Send</button>
