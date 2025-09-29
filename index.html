@@ -408,12 +408,13 @@
         <div class="footer-subscribe">
           <p class="footer-socials-text">Subscribe</p>
           <form class="socials-footer">
-            <label for="subscribe-input">
+            <label for="subscribe-input" class="socials-label">
               <input
                 placeholder="E-mail"
                 type="email"
                 class="subscribe-input"
                 id="subscribe-input"
+                name="email"
               />
             </label>
             <button type="submit" class="hero-button subscribe-button">
@@ -429,26 +430,26 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
-          <svg class="input-icon-close" width="12px" height="12px">
+          <svg class="input-icon-close" width="8px" height="8px">
             <use href="./images/icons.svg#icon-close" />
           </svg>
         </button>
-        <h3 class="modal-title">
-          Leave your contacts and we will call you back
-        </h3>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-field">
             <label for="user-name" class="modal-input-label">Name</label>
-            <input
-              name="user-name"
-              type="text"
-              class="modal-input modal-general"
-              id="user-name"
-              required
-            />
-            <svg class="input-icon" width="18px" height="24px">
-              <use href="./images/icons.svg#icon-name" />
-            </svg>
+            <div class="modal-input-text">
+              <input
+                name="user-name"
+                type="text"
+                class="modal-input modal-general"
+                id="user-name"
+                required
+              />
+              <svg class="input-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-name" />
+              </svg>
+            </div>
           </div>
 
           <div class="modal-field">
